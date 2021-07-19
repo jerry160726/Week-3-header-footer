@@ -1,0 +1,24 @@
+@mixin pl-5{
+    padding-left: 40px;
+}
+
+@mixin pl-8{
+    padding-left: 64px;
+}
+
+@mixin pr-6{
+    padding-right: 48px;
+}
+
+@mixin pr-8{
+    padding-right: 64px;
+}
+
+@mixin mr-6{
+    margin-right: 48px;
+}
+
+@mixin hover($bgcolor, $color){
+    background: $bgcolor;
+    color: $color;
+}
